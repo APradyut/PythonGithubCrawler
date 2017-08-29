@@ -34,6 +34,7 @@ while True:
         print("\tRepositories: " + str(counters_list[0]).strip())
         print("\tStars: " + str(counters_list[1]).strip())
         print("\tFollowers: " + str(counters_list[2]).strip())
+        print("\tFollowing: " + str(counters_list[3]).strip())
     except:
         flag += 1
         pass
